@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: SpaceShip.ma
-//Last modified: Thu, Jan 16, 2020 10:39:45 AM
+//Last modified: Thu, Jan 16, 2020 10:41:27 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "90E6BA32-4C10-2BD1-3BA0-69BF733CE117";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.3406129971016547 5.7981318004624427 3.0687479288031723 ;
-	setAttr ".r" -type "double3" -16.538352729598845 69.80000000000021 9.2110375631500055e-15 ;
+	setAttr ".t" -type "double3" 6.983497509171178 7.155912119692772 4.6047680813874026 ;
+	setAttr ".r" -type "double3" -25.538352729598937 56.60000000000025 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D78707DC-49D3-F9B0-B297-4EBD9BDEC920";
 	setAttr -k off ".v" no;
