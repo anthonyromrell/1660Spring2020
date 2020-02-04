@@ -33,7 +33,10 @@
         }
     },
     "texturesets": {
-        "lambert2SG": {
+        "Tire": {
+            "shader": "Main shader"
+        },
+        "Wheel": {
             "shader": "Main shader"
         }
     }
